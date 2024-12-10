@@ -3,7 +3,7 @@ const app = express();
 
 // Root route
 app.get('/', (req, res) => {
-    res.status(200).send('Hello, AWS CodePipeline!');
+    res.status(201).send('Hello, AWS CodePipeline!');
 });
 
 // Health check route
@@ -18,3 +18,4 @@ if (require.main === module) {
 }
 
 module.exports = app; // Export for testing
+// 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
